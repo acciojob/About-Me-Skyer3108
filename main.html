@@ -1,1 +1,99 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      margin: 20px;
+    }
+    h2 {
+      color: #007bff;
+    }
+    .skills {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .skill-bar {
+      background-color: #f0f0f0;
+      height: 20px;
+      border-radius: 10px;
+      width: 70%;
+    }
+    .skill-level {
+      height: 100%;
+      border-radius: 10px;
+      background-color: #007bff;
+    }
+    .skill-label {
+      margin-right: 10px;
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>Email: john.doe@example.com</p>
+  </header>
+  <section>
+    <h2>Profile</h2>
+    <p>Experienced Software Developer with a passion for creating innovative solutions. Skilled in multiple programming languages and frameworks.</p>
+  </section>
+  <section>
+    <h2>About Me</h2>
+    <p>I am a dedicated and creative software developer with a strong background in computer science. I enjoy tackling challenging problems and finding elegant solutions.</p>
+    <img src="profile_picture.jpg" alt="Profile Picture">
+  </section>
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="skill-label">JavaScript</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div class="skills">
+      <span class="skill-label">Python</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 80%;"></div>
+      </div>
+    </div>
+    <div class="skills">
+      <span class="skill-label">Java</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 75%;"></div>
+      </div>
+    </div>
+    <div class="skills">
+      <span class="skill-label">HTML/CSS</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 85%;"></div>
+      </div>
+    </div>
+    <div class="skills">
+      <span class="skill-label">React</span>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 85%;"></div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
